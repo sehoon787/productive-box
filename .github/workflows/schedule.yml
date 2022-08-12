@@ -13,5 +13,5 @@ jobs:
         uses: sehoon787/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 09674eb8e50dae1a199f9199d9478c12
+          GIST_ID: ${{ secrets.GIST_ID }}
           TIMEZONE: Asia/Taipei
